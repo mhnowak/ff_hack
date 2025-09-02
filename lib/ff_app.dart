@@ -1,4 +1,4 @@
-import 'package:ff_hack/presentation/screens/home_screen.dart';
+import 'package:ff_hack/presentation/screens/badge_screen.dart';
 import 'package:flutter/material.dart';
 
 class FFApp extends StatelessWidget {
@@ -6,6 +6,6 @@ class FFApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: const HomeScreen());
+    return MaterialApp(home: const BadgeScreen());
   }
 }

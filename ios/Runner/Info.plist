@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NFCReaderUsageDescription</key>
+	<!-- markdownlint-disable-next-line MD013 -->
+	<string>We use Near Field Communication (NFC) to wirelessly transfer your selected image to the e-ink display. Access is required to update the screen.</string>
+	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+		<array>
+		<string>A0000002471001</string>
+		</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
